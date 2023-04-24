@@ -1,4 +1,4 @@
-const PageLink = ({ id, href, text, className }) => {
+const PageLink = ({ href, text, className }) => {
   return (
     <li>
       <a href={href} className={className}>

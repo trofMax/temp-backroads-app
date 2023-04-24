@@ -1,5 +1,5 @@
 const Tour = (props) => {
-  const { id, img, date, title, info, location, duration, price } = props;
+  const { img, date, title, info, location, duration, price } = props;
   return (
     <article className="tour-card">
       <div className="tour-img-container">
